@@ -126,40 +126,94 @@ function toggleDataSeries(e) {
 <body>
 <div id="chartContainer" style="height: 370px; width: 100%;"></div>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Modelo</th>
+      <th scope="col">Calidad</th>
+      <th scope="col">Descripcion</th>
+      <th scope="col">Fecha inicio</th>
+      <th scope="col">Fecha fin</th>
+       <th scope="col">Num días</th>
+      <th scope="col">Min stock</th>
+      <th scope="col">Max stock</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td> 722</td>
+      <td>402</td>
+      <td data-toggle="modal"
+			data-target="#exampleModal1"
+			data-whatever="item 1"><a href="#">SUDADERA CREW NECK M/L NEW YORK</a></td>
+      <td>01/10/2020</td>
+      <td>27/10/2020</td>
+      <td>26</td>
+      <td>2987</td>
+      <td>8700</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+         <td > 722</td>
+      <td>402</td>
+      <td data-toggle="modal"
+			data-target="#exampleModal2"
+      data-whatever="item 2"><a href="#">SUDADERA CREW NECK M/L NEW YORK </a></td>
+      <td>01/10/2020</td>
+      <td>27/10/2020</td>
+      <td>26</td>
+      <td>2987</td>
+      <td>8700</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+            <td d> 722</td>
+      <td>402</td>
+      <td data-toggle="modal"
+			data-target="#exampleModal3"
+			data-whatever="item 3"><a href="#">SUDADERA CREW NECK M/L NEW YORK</td>
+      <td>01/10/2020</td>
+      <td>27/10/2020</td>
+      <td>26</td>
+      <td>2987</td>
+      <td>8700</td>
+    </tr>
+  </tbody>
+</table>
+
 	<!-- Button trigger modal -->
 	<ul> 
 		<li data-toggle="modal"
 			data-target="#exampleModal1"
 			data-whatever="item 1"> 
-			<a href="#">PANTALON ALGODON LISO</a> 
+			<a href="#">Item 1</a> 
 		</li> 
 		<li data-toggle="modal"
 			data-target="#exampleModal2"
 			data-whatever="item 2"> 
-			<a href="#">PANTALON SARGA SPORT</a> 
+			<a href="#">Item 2</a> 
 		</li> 
 		<li data-toggle="modal"
 			data-target="#exampleModal3"
 			data-whatever="item 3"> 
-			<a href="#">PANTALON MICROSARGA ITALIA ESPECIAL</a> 
+			<a href="#">Item 3</a> 
 		</li> 
 	</ul> 
 	<!-- Modal -->
 	<div class="modal fade" id="exampleModal1"
 		tabindex="-1" role="dialog"
 		aria-labelledby="exampleModalLabel"
-		aria-hidden="true" > 
+		aria-hidden="true"> 
 		<div class="modal-dialog" role="document"> 
 			<div class="modal-content"> 
 				<div class="modal-header"> 
 					<h5 class="modal-title"
 						id="exampleModalLabel"> 
-						PANTALON ALGODON LISO
+						Modal title 
 					</h5> 
-					                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <iframe class="embed-responsive-item" src="https://image.shutterstock.com/image-photo/light-grey-formal-mens-trousers-600w-1096296503.jpg"
-                allowfullscreen></iframe>
-            </div>
+
 					<button type="button" class="close"
 						data-dismiss="modal" aria-label="Close"> 
 						<span aria-hidden="true">×</span> 
@@ -190,11 +244,7 @@ function toggleDataSeries(e) {
 				<div class="modal-header"> 
 					<h5 class="modal-title"
 						id="exampleModalLabel"> 
-						PANTALON SARGA SPORT</h5> 
-					                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <iframe class="embed-responsive-item" src="https://image.shutterstock.com/image-photo/light-grey-formal-mens-trousers-600w-1096296503.jpg"
-                allowfullscreen></iframe>
-            </div>
+						Modal title</h5> 
 					<button type="button" class="close"
 						data-dismiss="modal" aria-label="Close"> 
 						<span aria-hidden="true">×</span> 
@@ -227,12 +277,8 @@ function toggleDataSeries(e) {
 				<div class="modal-header"> 
 					<h5 class="modal-title"
 						id="exampleModalLabel"> 
-						PANTALON MICROSARGA ITALIA ESPECIAL
+						Modal title 
 					</h5> 
-					                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <iframe class="embed-responsive-item" src="https://image.shutterstock.com/image-photo/light-grey-formal-mens-trousers-600w-1096296503.jpg"
-                allowfullscreen></iframe>
-            </div>
 					<button type="button" class="close"
 						data-dismiss="modal"
 						aria-label="Close"> 
