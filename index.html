@@ -135,15 +135,19 @@
 			margin-left: 5px;
 		}
 		#itx_title .brand .app_logo {
-			    background: url(./logo-inditex.png) no-repeat left center;
-			    float: left;
-			    padding-left: 160px;
-			    height: 30px;
+			background: url(./logo-inditex.png) no-repeat left center;
+			float: left;
+			 padding-left: 160px;
+			 height: 30px;
 		}
 		.main {
 			margin: 0 2.8em;
 		}
-
+		body {
+		    font-size: 10px;
+		    background-image: url(../images/extranet/background.jpg?version=2.19.0.2);
+		    padding: 0 15px;
+		}
 	</style>
 </head>
 <body style="zoom: 1;">
@@ -156,10 +160,10 @@
 				    <span class="app_name">Frozen Stock</span>
 				</div> 
 			 </div>	
-
-
-		<div id="chartContainer" style="height: 370px; width: 60%; position: relative;margin-top:50px;"></div>
+		<div id="chartContainer" style="height: 370px; width: 60%; position: relative;margin-top:50px;">
+		</div>
 		<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+			
 		 <table class="table table-striped" style="height: 370px; width: 60%; position: center; top: 30%;">
 		  <thead>
 		    <tr>
@@ -218,17 +222,13 @@
 		</table>
 
 			<!-- Modal -->
-			<div class="modal fade" id="exampleModal1"
-				tabindex="-1" role="dialog"
-				aria-labelledby="exampleModalLabel"
-				aria-hidden="true"> 
-				<div class="modal-dialog" role="document"> 
-					<div class="modal-content"> 
-						<div class="modal-header"> 
-							<h5 class="modal-title"
-								id="exampleModalLabel"> 
-								Modal title 
-							</h5> 
+		<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+			<div class="modal-dialog" role="document"> 
+				<div class="modal-content"> 
+					<div class="modal-header"> 
+						<h5 class="modal-title" id="exampleModalLabel"> 
+							Modal title 
+						</h5> 
 
 							<button type="button" class="close"
 								data-dismiss="modal" aria-label="Close"> 
